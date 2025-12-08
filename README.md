@@ -45,7 +45,23 @@
 OPENAI_API_KEY=your_api_key_here
 ```
 
-### 2. 서버 실행
+### 2. 가상환경 설정 (선택사항)
+
+프로젝트를 처음 실행하는 경우 가상환경을 생성하고 패키지를 설치하세요:
+
+```bash
+# 가상환경 생성 (Windows)
+python -m venv ocr_project
+
+# 가상환경 활성화 (Windows)
+ocr_project\Scripts\activate
+
+# 패키지 설치
+pip install -r requirements.txt
+```
+
+
+### 3. 서버 실행
 
 ```bash
 # 가상환경 활성화 (Windows)
@@ -55,7 +71,7 @@ ocr_project\Scripts\activate
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-### 3. 웹 브라우저에서 접속
+### 4. 웹 브라우저에서 접속
 
 서버가 실행되면 브라우저에서 다음 주소로 접속하세요:
 ```
