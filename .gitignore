@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+ocr_project/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# 개인정보가 포함된 데이터 파일 (GitHub에 업로드하지 않음)
+# data 폴더의 모든 파일 제외 (폴더 구조는 .gitkeep으로 유지)
+data/**/*
+!data/**/.gitkeep
+
+# 평가 결과 (선택적)
+performance_results.json
+
+# OS
+.DS_Store
+Thumbs.db
+
